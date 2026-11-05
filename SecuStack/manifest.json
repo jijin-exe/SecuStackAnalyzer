@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SecuStack Analyzer Pro",
+  "version": "3.0",
+  "description": "Passively analyzes tech stacks, client libraries, and OSINT data.",
+  "permissions": ["webRequest", "storage", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
